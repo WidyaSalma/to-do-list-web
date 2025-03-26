@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #0a8642;
+    color: #333;
+    padding: 40px 20px 20px;
+}
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    color: black;
+}
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+}
+button {
+    padding: 11px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+    font-weight: 600;
+}
+button:hover {
+    background: #0056b3;
+}
+.clear-btn {
+    margin-top: 10px;
+    background: red;
+}
+.clear-btn:hover {
+    background: darkred;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+li:hover {
+    background: #dedede;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+.task-actions {
+    display: flex;
+    gap: 5px;
+}
+.task-actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+    padding: 5px;
+    border-radius: 5px;
+}
+.task-actions .check-btn:hover {
+    background: rgba(7, 221, 7, 0.4);
+}
+.task-actions .edit-btn:hover {
+    background: rgba(255, 197, 8, 0.925);
+}
+.task-actions .delete-btn:hover {
+    background: rgba(255, 0, 0, 0.4);
+}
+.task-actions button:hover {
+    transform: scale(1.2);
+}
